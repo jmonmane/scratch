@@ -1,0 +1,18 @@
+2014-04-27 18:36:03,010 p-search started
+2014-04-27 18:36:03,010 Search Words
+2014-04-27 18:36:03,010 Input File: c:\TESTSRCH\narc.txt
+2014-04-27 18:36:03,010 set(['stones', 'shot', 'scrabble', 'powder', 'casper', 'hell', 'sugar', 'mojo', 'blow', 'devil', 'snow', 'kryptonite', 'tornado', 'white', 'gravel', 'hardball', 'moonrocks', 'monster', 'beat', 'coke', 'base', 'blast', 'pimp', 'candy', 'chalk', 'nose', 'rock'])
+2014-04-27 18:36:03,058 Target of Search: c:\TESTSRCH\capture.raw
+2014-04-27 18:36:03,058 File Size: 77650
+2014-04-27 18:36:04,477 Elapsed Time: 1.46700000763 seconds
+2014-04-27 18:36:04,477 
+2014-04-27 18:36:04,477 Program Terminated Normally
+2014-04-27 18:38:16,111 p-search started
+2014-04-27 18:38:16,111 Search Words
+2014-04-27 18:38:16,111 Input File: c:\TESTSRCH\narc.txt
+2014-04-27 18:38:16,111 set(['stones', 'shot', 'scrabble', 'powder', 'casper', 'hell', 'sugar', 'mojo', 'blow', 'devil', 'snow', 'kryptonite', 'tornado', 'white', 'gravel', 'hardball', 'moonrocks', 'monster', 'beat', 'coke', 'base', 'blast', 'pimp', 'candy', 'chalk', 'nose', 'rock'])
+2014-04-27 18:38:16,125 Target of Search: c:\TESTSRCH\capture.raw
+2014-04-27 18:38:16,125 File Size: 77650
+2014-04-27 18:38:16,937 Elapsed Time: 0.825999975204 seconds
+2014-04-27 18:38:16,937 
+2014-04-27 18:38:16,937 Program Terminated Normally

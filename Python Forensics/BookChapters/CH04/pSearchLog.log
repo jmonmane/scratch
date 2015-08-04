@@ -1,0 +1,9 @@
+2014-05-10 15:14:30,369 p-search started
+2014-05-10 15:14:30,370 Search Words
+2014-05-10 15:14:30,371 Input File: ./TESTSRCH/narc.txt
+2014-05-10 15:14:30,375 set(['stones', 'shot', 'scrabble', 'powder', 'casper', 'hell', 'sugar', 'mojo', 'blow', 'devil', 'snow', 'kryptonite', 'tornado', 'white', 'gravel', 'hardball', 'moonrocks', 'monster', 'beat', 'coke', 'base', 'blast', 'pimp', 'candy', 'chalk', 'nose', 'rock'])
+2014-05-10 15:14:30,376 Target of Search: ./TESTSRCH/capture.raw
+2014-05-10 15:14:30,376 File Size: 77650
+2014-05-10 15:14:30,787 Elapsed Time: 0.416656017303 seconds
+2014-05-10 15:14:30,787 
+2014-05-10 15:14:30,787 Program Terminated Normally

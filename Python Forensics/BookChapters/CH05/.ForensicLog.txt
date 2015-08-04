@@ -1,0 +1,12 @@
+2014-05-10 15:18:17,976 Scan Started
+2014-05-10 15:18:18,128 GPS Data Calculated for :./TESTIMAGES/Deutchland.JPG
+2014-05-10 15:18:18,133 GPS Data Calculated for :./TESTIMAGES/kinderscout.jpg
+2014-05-10 15:18:18,137 GPS Data Calculated for :./TESTIMAGES/Disney.jpg
+2014-05-10 15:18:18,146 GPS Data Calculated for :./TESTIMAGES/Cat.jpg
+2014-05-10 15:18:18,149 GPS Data Calculated for :./TESTIMAGES/Munich.JPG
+2014-05-10 15:18:18,150 No GPS EXIF Data for ./TESTIMAGES/zzz.jpg
+2014-05-10 15:18:18,155 GPS Data Calculated for :./TESTIMAGES/Castle.JPG
+2014-05-10 15:18:18,163 GPS Data Calculated for :./TESTIMAGES/Biking.jpg
+2014-05-10 15:18:18,178 GPS Data Calculated for :./TESTIMAGES/Turtle.jpg
+2014-05-10 15:18:18,183 GPS Data Calculated for :./TESTIMAGES/dscn0011.jpg
+2014-05-10 15:18:18,183 Logging Shutdown

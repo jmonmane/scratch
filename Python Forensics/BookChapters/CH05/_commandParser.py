@@ -1,0 +1,56 @@
+'''
+Copyright (c) 2014 Chet Hosmer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
+
+'''
+
+
+import argparse                        # Python Standard Library - Parser for command-line options, arguments
+import os                                  # Standard Library OS functions
+
+# Name: ParseCommand() Function
+#
+# Desc: Process and Validate the command line arguments
+#           use Python Standard Library module argparse
+#
+# Input: none
+#  
+# Actions: 
+#              Uses the standard library argparse to process the command line
+#
+def ParseCommandLine():
+
+    parser = argparse.ArgumentParser('Python gpsExtractor')
+
+    parser.add_argument('-v', '--verbose',    help="enables printing of additional program messages", action='store_true')
+    parser.add_argument('-l', '--logPath',       type= ValidateDirectory, required=True, help="specify the directory for forensic log output file")       
+    parser.add_argument('-c ', '--csvPath',     type= ValidateDirectory, required=True, help="specify the output directory for the csv file")    
+    parser.add_argument('-d', '--scanPath',  type= ValidateDirectory, required=True, help="specify the directory to scan")
+      
+    theArgs = parser.parse_args()           
+
+    return theArgs
+
+# End Parse Command Line ===========================
+
+def ValidateDirectory(theDir):
+
+    # Validate the path is a directory
+    if not os.path.isdir(theDir):
+        raise argparse.ArgumentTypeError('Directory does not exist')
+
+    # Validate the path is writable
+    if os.access(theDir, os.W_OK):
+        return theDir
+    else:
+        raise argparse.ArgumentTypeError('Directory is not writable')
+
+#End ValidateDirectory ===================================

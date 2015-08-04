@@ -1,0 +1,9 @@
+2014-05-25 09:20:25,504 PS-NMT Started
+2014-05-25 09:20:25,553 Logging Shutdown
+2014-05-25 09:20:42,440 PS-NMT Started
+2014-05-25 09:20:42,863 Promiscious Mode Enabled
+2014-05-25 09:20:42,864 Raw Socket Open
+2014-05-25 09:21:43,309 Promiscious Mode Diabled
+2014-05-25 09:21:43,311 Raw Socket Closed
+2014-05-25 09:21:43,312 Program End
+2014-05-25 09:21:43,312 Logging Shutdown
